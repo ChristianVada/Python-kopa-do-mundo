@@ -17,7 +17,7 @@ def data_processing(dictionary):
 
     format_first_cup = int(first_cup.split("-")[0])
 
-    possible_titles = (format_first_cup - 1930) // 4
+    possible_titles = (2023 - format_first_cup) // 4
 
-    if possible_titles < format_first_cup:
+    if possible_titles < dictionary["titles"]:
         raise ImpossibleTitlesError
