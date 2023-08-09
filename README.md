@@ -1,4 +1,6 @@
-# M5 - Kopa do Mundo
+# Introdução
+Você recebeu uma proposta de uma empresa que produz eventos esportivos, desenvolver uma API para organizar um campeonato de futebol, onde cada time representará uma seleção. Para manter o mínimo de organização, você vai precisar de algumas validações.
+
 
 ## Como rodar os testes localmente
  - Verifique se os pacotes pytest e/ou pytest-testdox estão instalados globalmente em seu sistema:
